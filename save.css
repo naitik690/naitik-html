@@ -1,0 +1,166 @@
+
+.container{
+    background-color: aqua;
+    float: left;
+    padding: 60px;
+    height: 74vh;
+    display: flex;
+   
+}
+
+.main{
+padding-left: 40px;
+padding-top: 50px;
+padding-right: 40px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+padding-bottom: 10px;
+    background-color: blue;
+    height:65vh;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+h1{
+    text-shadow: 2px 2px black;
+    color: aqua;
+    font-family: roboto,sans-serif;
+    display: flex;
+    justify-content: center;
+    left: 5px;
+    font-size:50px;
+    font-family:cursive;
+    margin-top: -30px;
+    letter-spacing: 5px;
+}
+.class{
+    text-shadow: 2px 2px black;
+    color: aqua;
+ font-family:cursive;
+    display: flex;
+    justify-content: center;
+left: 5px;
+font-size: 50px;
+margin-top: -45px;
+}
+.child2{
+    margin-top: -25px;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.sh{
+    
+    margin-top: -25px;
+    font-size: 25px;
+
+}
+
+.vv{
+    font-size: 20px;
+}
+.coma{
+    margin-top: -20px;
+    font-size: 20px;
+}
+h2{
+    justify-content: center;
+    display: flex;
+    color:aqua;
+    text-shadow: 1px 1px black;
+    font-family: roboto,sans-serif;
+    font-size: 28px;
+}
+h3{
+    color: white;
+    background-color: aqua;
+    padding:10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:20px;
+    font-family: poppins,sans-serif;
+}
+h5{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.container{
+    
+    
+        background: linear-gradient(45deg, #00c6ff, #0095ff, #000000, #00c6ff);
+        background-size: 400% 400%;
+        animation: gradientFlow 6s ease infinite;
+        height: 74vh;
+        margin: 0;
+      }
+      
+      @keyframes gradientFlow {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .main:hover {
+        background: linear-gradient(45deg, #004e92, #00c6ff, #000000, #004e92);
+        background-size: 400% 400%;
+        animation: gradientFlow 6s ease infinite;
+        height: 65vh;
+        margin: 0;
+      }
+      
+      @keyframes gradientFlow {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .box:hover {
+        animation: shakeRandom 1s ease-in-out infinite; /* Slow shaking animation */
+      }
+      
+      /* Keyframes for random shake effect */
+      @keyframes shakeRandom {
+        0% { transform: translate(0, 0) rotate(0deg); }
+        20% { transform: translate(-5px, 5px) rotate(-5deg); }
+        40% { transform: translate(8px, -8px) rotate(8deg); }
+        60% { transform: translate(-10px, 3px) rotate(-8deg); }
+        80% { transform: translate(5px, 5px) rotate(5deg); }
+        100% { transform: translate(0, 0) rotate(0deg); }
+      }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background:linear-gradient(blue,black);
+    }
