@@ -1,9 +1,9 @@
 
 .container{
-    background-color: aqua;
+    background-color:aqua;
     float: left;
     padding: 60px;
-    height: 74vh;
+    height: 530px;
     display: flex;
    
 }
@@ -18,7 +18,7 @@ border-top-right-radius: 15px;
 border-top-left-radius: 15px;
 padding-bottom: 10px;
     background-color: blue;
-    height:65vh;
+    height:470px;
     border: 1px solid rgb(255, 255, 255);
     
 }
@@ -110,7 +110,7 @@ h5{
         background: linear-gradient(45deg, #00c6ff, #0095ff, #000000, #00c6ff);
         background-size: 400% 400%;
         animation: gradientFlow 6s ease infinite;
-        height: 74vh;
+       
         margin: 0;
       }
       
